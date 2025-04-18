@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello, DevOps! this is second  webhook');
+    res.send('Hello, DevOps! this is second2  webhook');
 });
 
 const PORT = process.env.PORT || 5000;
